@@ -1,0 +1,67 @@
+/* reset.css */
+/* 移除所有元素的預設邊距和內距 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 移除列表樣式 */
+ul, ol {
+    list-style: none;
+}
+
+/* 移除連結的預設樣式 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 移除按鈕的預設樣式 */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* 移除輸入框的預設樣式 */
+input, textarea {
+    border: none;
+    outline: none;
+}
+
+/* 設定基本字體大小和行高 */
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* 移除圖片底部的空白 */
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+/* 移除表格的預設間距 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 移除引用區塊的預設邊距 */
+blockquote, q {
+    quotes: none;
+}
+
+/* 移除表單元素的預設樣式 */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* 移除文字選取時的背景顏色 */
+::selection {
+    background-color: transparent;
+}
