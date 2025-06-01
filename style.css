@@ -271,6 +271,11 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 8px 20px;
+    background-color: #FFF;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 40px;
 }
 .blog-pagination-item {
     color: #4B4B4B;
